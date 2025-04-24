@@ -46,3 +46,9 @@ def calculator():
             print("Invalid input. Please enter valid choice between 1 and 4")
 if __name__ == "__main__":
   calculator()
+'''
+The program displays a menu of operations.
+The user selects an operation (1, 2, 3, or 4).
+The program prompts the user to input two numbers.
+The selected operation is performed, and the result is displayed.
+The user is asked if they want to perform another calculation. If "yes," the program restarts; otherwise, it exits.''''''
