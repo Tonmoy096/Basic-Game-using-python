@@ -10,6 +10,14 @@ def pas_generator():
     symbols = string.punctuation
 
 
+    all_characters = lowercase_letters + uppercase_letters + digits + symbols
+
+    password = '' .join(random.choice(all_characters) for _ in range(length))
+
+    print(f"Generated password: {password}")
+    
+
+
     print(f"Generating password length {length}")
     print(f"Lowercase letters: {lowercase_letters}")
     print(f"Uppercase_letters:{uppercase_letters}")
